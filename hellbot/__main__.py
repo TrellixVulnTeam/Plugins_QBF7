@@ -14,7 +14,7 @@ from dolybot.version import __doly__ as hellver
 
 hl = Config.HANDLER
 
-DOLY_PIC = "https://telegra.ph/file/cb0bd62632a3a2b6b2726.jpg"
+DOLY_PIC = "https://te.legra.ph/file/485fd3a3bc515d57e5285.jpg"
 
 
 # Client Starter
