@@ -18,7 +18,7 @@ DOLY_PIC = "https://te.legra.ph/file/485fd3a3bc515d57e5285.jpg"
 
 
 # Client Starter
-async def hells(session=None, client=None, session_name="Main"):
+async def dolys(session=None, client=None, session_name="Main"):
     if session:
         LOGS.info(f"••• Starting Client [{session_name}] •••")
         try:
