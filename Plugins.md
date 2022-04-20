@@ -1,4 +1,4 @@
-# Follow this format to make your own plugin for HellBot.
+# Follow this format to make your own plugin for DolyBot.
 
 ```python3
 """
