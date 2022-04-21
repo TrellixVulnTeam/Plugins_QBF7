@@ -10,7 +10,7 @@ from dolybot import LOGS, bot, tbot
 from dolybot.clients.session import Doly, H2, H3, H4, H5
 from dolybot.config import Config
 from dolybot.utils import join_it, load_module, logger_check, start_msg, update_sudo, plug_channel
-from dolybot.version import __doly__ as hellver
+from dolybot.version import __doly__ as dolyver
 
 hl = Config.HANDLER
 
@@ -63,7 +63,7 @@ async def start_dolybot():
         Config.BOT_USERNAME = f"@{tbot_id.username}"
         bot.tgbot = tbot
         LOGS.info("••• Starting Dolybot •••")
-        C1 = await dolys(Config.HELLBOT_SESSION, bot, "DOLYBOT_SESSION")
+        C1 = await dolys(Config.DOLYBOT_SESSION, bot, "DOLYBOT_SESSION")
         C2 = await dolys(Config.SESSION_2, H2, "SESSION_2")
         C3 = await dolys(Config.SESSION_3, H3, "SESSION_3")
         C4 = await dolys(Config.SESSION_4, H4, "SESSION_4")
